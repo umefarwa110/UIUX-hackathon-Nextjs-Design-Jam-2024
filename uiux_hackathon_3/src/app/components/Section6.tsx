@@ -7,7 +7,7 @@ export default function Section6() {
       title: "Loudest à la Madison #1 (L’Integral)",
       date: "22 April 2021",
       comments: 10,
-      image: "section6_img1.png", // Replace with your image path
+      image: "section6_img1.png",
       tags: ["Google", "Trending", "New"],
     },
     {
@@ -15,7 +15,7 @@ export default function Section6() {
       title: "Loudest à la Madison #1 (L’Integral)",
       date: "22 April 2021",
       comments: 10,
-      image: "section6_img2.png", // Replace with your image path
+      image: "section6_img2.png",
       tags: ["Google", "Trending", "New"],
     },
     {
@@ -23,7 +23,7 @@ export default function Section6() {
       title: "Loudest à la Madison #1 (L’Integral)",
       date: "22 April 2021",
       comments: 10,
-      image: "section6_img3.png", // Replace with your image path
+      image: "section6_img3.png",
       tags: ["Google", "Trending", "New"],
     },
   ];
@@ -31,16 +31,15 @@ export default function Section6() {
   return (
     <section className="py-8 px-44 bg-gray-100 ">
       <div className="mx-auto">
-        {/* Header Section */}
+
         <div className="text-center">
           <h4 className="text-blue-500 font-semibold">Practice Advice</h4>
           <h2 className="text-4xl font-bold">Featured Posts</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Problems trying to resolve the conflict between the <br/> two major realms of Classical physics: Newtonian mechanics
+            Problems trying to resolve the conflict between the <br /> two major realms of Classical physics: Newtonian mechanics
           </p>
         </div>
 
-        {/* Posts Section */}
         <div className="flex gap-4">
           {posts.map((post) => (
             <div

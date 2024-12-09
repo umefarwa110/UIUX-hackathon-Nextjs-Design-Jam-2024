@@ -76,7 +76,7 @@ export default function Section3() {
 
   return (
     <section className="container mx-auto p-8">
-      {/* Title */}
+
       <p className="text-center text-gray-500 mb-2">
         Featured Products
       </p>
@@ -85,14 +85,13 @@ export default function Section3() {
         Problems trying to resolve the conflict between
       </p>
 
-      {/* Product Grid */}
-      <div className="grid grid-cols-4 gap-6"> {/* Fixed 4 columns */}
+      <div className="grid grid-cols-4 gap-6">
         {products.map((product) => (
           <div
             key={product.id}
             className="flex flex-col items-center p-4"
           >
-            {/* Image */}
+
             <div className="w-full h-96 relative">
               <img
                 src={product.image}
@@ -101,11 +100,9 @@ export default function Section3() {
               />
             </div>
 
-            {/* Title */}
             <h3 className="text-md font-bold mt-6">{product.title}</h3>
             <p className="text-sm text-gray-500 mt-1">{product.department}</p>
 
-            {/* Pricing */}
             <div className="flex items-center space-x-2 mt-1">
               <span className="text-gray-400 line-through text-sm">
                 {product.oldPrice}
@@ -115,7 +112,6 @@ export default function Section3() {
               </span>
             </div>
 
-            {/* Color Options */}
             <div className="flex space-x-1 mt-1">
               {product.colors.map((color, index) => (
                 <span

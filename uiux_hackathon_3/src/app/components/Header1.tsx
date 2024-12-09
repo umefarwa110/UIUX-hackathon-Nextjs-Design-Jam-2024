@@ -1,10 +1,9 @@
 import Image from "next/image";
 
-export default function Header1(){
-    return(
-        <div className="lg:block hidden w-full h-[58px] bg-[#252B42]">
+export default function Header1() {
+  return (
+    <div className="lg:block hidden w-full h-[58px] bg-[#252B42]">
       <div className="flex justify-between items-center w-full h-full px-[24px]">
-        {/* Left section: Contact Info */}
         <div className="flex gap-[10px]">
           <button className="flex items-center gap-[5px] p-[10px] text-white">
             <Image src={"/phone.png"} alt="phone" width={16} height={16} />
@@ -16,12 +15,10 @@ export default function Header1(){
           </button>
         </div>
 
-        {/* Center section: Follow Us */}
         <h6 className="font-Montserrat font-semibold text-[14px] text-white">
           Follow Us and get a chance to win 80% off
         </h6>
 
-        {/* Right section: Social Icons */}
         <div className="flex gap-[10px] items-center">
           <h6 className="font-Montserrat text-[14px] text-white">Follow Us:</h6>
           <div className="flex gap-[10px]">
@@ -33,5 +30,5 @@ export default function Header1(){
         </div>
       </div>
     </div>
-    )
+  )
 }

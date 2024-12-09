@@ -10,14 +10,14 @@ import Section6 from "./components/Section6";
 export default function Home() {
   return (
     <div>
-      <Header1/>
-      <Header2/>
-      <Section1/>
-      <Section2/>
-      <Section3/>
-      <Section4/>
-      <Section5/>
-      <Section6/>
+      <Header1 />
+      <Header2 />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      <Section6 />
     </div>
   );
 }

@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function Section4() {
     return (
         <div className="relative w-full h-[716px]">
-            {/* Background Image */}
+
             <div className="absolute inset-0">
                 <Image
-                    src={"/section4_bwithbg.jpg"} // Replace with your image path
+                    src={"/section4_bwithbg.jpg"}
                     alt="Background"
                     layout="fill"
                     objectFit="cover"
@@ -15,9 +15,8 @@ export default function Section4() {
                 />
             </div>
 
-            {/* Content Section */}
             <div className="relative flex justify-between items-center h-full px-8 ml-20">
-                {/* Text Section */}
+
                 <div className="max-w-md text-white">
                     <p className="text-[28]">SUMMER 2020</p>
                     <h1 className="text-[48px] font-bold my-4">Vita Classic <br />Product</h1>

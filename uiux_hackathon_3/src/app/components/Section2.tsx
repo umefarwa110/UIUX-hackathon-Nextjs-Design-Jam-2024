@@ -4,7 +4,7 @@ export default function Section2() {
   return (
     <div className="w-full h-[auto] flex justify-center py-[10px] bg-[#FAFAFA] relative z-0">
       <div className="w-[1050px] h-auto flex flex-col gap-[30px] p-[40px]">
-        {/* Title Section */}
+
         <div className="flex flex-col items-center gap-[10px]">
           <h3 className="font-Montserrat font-semibold text-[24px] leading-[32px]">
             EDITOR’S PICK
@@ -13,12 +13,12 @@ export default function Section2() {
             Problems trying to resolve the conflict between
           </p>
         </div>
-        {/* Images Section */}
+
         <div className="w-full h-[500px] flex gap-[30px]">
-          {/* Men Image */}
+
           <div className="relative w-[510px] h-[500px]">
             <Image
-              src={"/section2_men.png"} // Make sure the path is correct
+              src={"/section2_men.png"}
               alt="men"
               className="object-cover"
               fill
@@ -27,10 +27,10 @@ export default function Section2() {
               MEN
             </button>
           </div>
-          {/* Women Image */}
+
           <div className="relative w-[240px] h-[500px]">
             <Image
-              src={"/section2_women.png"} // Make sure the path is correct
+              src={"/section2_women.png"}
               alt="women"
               className="object-cover"
               fill
@@ -41,12 +41,12 @@ export default function Section2() {
               </h2>
             </button>
           </div>
-          {/* Accessories and Kids */}
+
           <div className="w-[240px] h-[500px] flex flex-col gap-[30px]">
-            {/* Accessories Image */}
+
             <div className="relative w-[240px] h-[242px]">
               <Image
-                src={"/section2_accessories.png"} // Make sure the path is correct
+                src={"/section2_accessories.png"}
                 alt="accessories"
                 className="object-cover"
                 fill
@@ -57,10 +57,10 @@ export default function Section2() {
                 </h2>
               </button>
             </div>
-            {/* Kids Image */}
+
             <div className="relative w-[240px] h-[242px]">
               <Image
-                src={"/section2_kids.png"} // Make sure the path is correct
+                src={"/section2_kids.png"}
                 alt="kids"
                 className="object-cover"
                 fill

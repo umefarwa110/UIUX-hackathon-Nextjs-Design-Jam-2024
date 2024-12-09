@@ -3,16 +3,15 @@ import React from 'react';
 export default function Section5() {
     return (
         <div className="flex items-center bg-white px-6">
-            {/* Image Section */}
+
             <div className="w-1/2 flex justify-center" style={{ marginLeft: '50px' }}>
                 <img
-                    src={"/section5_img.png"} // Replace with the actual image path
+                    src={"/section5_img.png"}
                     alt="Happy couple"
                     className=""
                 />
             </div>
 
-            {/* Text Section */}
             <div className="w-1/2 pl-[72px]">
                 <p className="text-gray-400 uppercase text-sm">Summer 2020</p>
                 <h2 className="text-4xl font-bold text-gray-800 mt-6">
