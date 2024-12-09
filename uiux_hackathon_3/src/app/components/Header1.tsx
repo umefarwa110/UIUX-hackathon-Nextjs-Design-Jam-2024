@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header1() {
   return (
-    <div className="lg:block hidden w-full h-[58px] bg-[#252B42]">
+    <div className="w-full h-[58px] bg-[#252B42]">
       <div className="flex justify-between items-center w-full h-full px-[24px]">
         <div className="flex gap-[10px]">
           <button className="flex items-center gap-[5px] p-[10px] text-white">
