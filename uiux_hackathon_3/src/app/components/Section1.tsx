@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Section1() {
   return (
-    <div className="relative w-full h-[750px]">
+    <div className="relative w-full h-[760px]">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
